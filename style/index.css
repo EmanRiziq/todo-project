@@ -1,0 +1,86 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 30px;
+	font-family: 'Arima', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+	vertical-align: baseline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a9fea;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #eff1f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+/* th{
+  color: #ffc94a;
+}
+td{
+  color: #2a9fea;
+} */
+
+#maintable {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#maintable td,  th {
+  border: 1px solid #2a9fea;
+  color: #2a9fea;
+  padding: 8px;
+}
+
+#maintable tr:nth-child(even){background-color: #eff1f2;}
+#maintable tr:nth-child(odd){background-color:#dee1e3;}
+
+
+/* #maintable tr:hover {background-color: #ddd;} */
+
+#maintable th {
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#fa7489;
+  /* background-color:#bef4ff; */
+  color: #ffc94a;
+}
