@@ -45,3 +45,32 @@ ul {
   li a:hover {
     background-color: #111;
   }
+  #firstform input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label{
+    color: #fa7489;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #ffc94a;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2a9fea;
+}
+#intro p{
+    color:#ffc94a;
+}
