@@ -12,9 +12,16 @@ WelMsgFun(WelMsg);
 
 //phase2
 const Answers=[];
-Answers[0]=confirm(" Do you work?");
-Answers[1]= confirm ("Do you have troubles with time management ?");
-Answers[2] = confirm ("Do you have hobbies ?");
+function AskQuestion ( Question)
+{
+    let QPrompt=prompt(Question);
+    if (QPrompt.toUpperCase==="YES"||QPrompt.toUpperCase==="NO") return QPrompt;
+    if(QPrompt=="") return "invalid";
+    else return QPrompt;
+}
+Answers[0]=AskQuestion(" Do you work?");
+Answers[1]= AskQuestion ("Do you have troubles with time management ?");
+Answers[2] = AskQuestion ("Do you have hobbies ?");
 
 printAnswers();
 function printAnswers(){
